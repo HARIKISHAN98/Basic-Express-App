@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-heading{
+    color: slategray;
+}
+
+#contact-details{
+    list-style: none;
+}
+
+#contact-details li{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(16, 116, 217);
+    margin-bottom: 10px;
+    width: 80vw;
+}
+
+
+#contact-details div:hover{
+    background-color: rgb(127, 144, 161);
+}
+
+#print-item{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    flex: 0 0 90%;
+}
+
+.delete-button{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-button a{
+    background-color: red;
+}
+
+form input{
+    background: transparent;
+    border: none;
+    height: 30px;
+    width: 180px;
+    font-size: 20px;
+}
+
+
+button{
+    background-color: slategray;
+    color: white;
+    border: none;
+    height: 30px;
+}
+
+button:hover{
+    background-color: rgb(127, 144, 161);
+}
+
+
